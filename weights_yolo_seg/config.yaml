@@ -1,0 +1,10 @@
+batch_size: 32
+data_yaml: lvis.yaml
+device: cuda
+epochs: 80
+image_size: 640
+model_type: yolov8n-seg
+save_dir: !!python/object/apply:pathlib.WindowsPath
+- runs
+- train
+workers: 8
